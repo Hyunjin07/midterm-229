@@ -1,3 +1,11 @@
+/*
+File name: COMP229-F2022 MidTerm(301157840)
+Author's name: Hyunjin Park
+Student ID: 301157840
+Web App name: https://midterm-229.herokuapp.com/cars
+*/
+
+
 // modules required for routing
 let express = require("express");
 let router = express.Router();
@@ -120,7 +128,7 @@ router.post("/edit/:id", (req, res, next) => {
 router.get("/delete", (req, res, next) => {
 
   let id = req.params.id;
-  car.remove({Price: {$gt:15000 }}, (err) =>{
+  car.remove({Price: {$gt:20000 }}, (err) =>{
     if(err){
       console.log(err);
       res.end(err);
