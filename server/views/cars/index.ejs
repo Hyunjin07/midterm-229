@@ -1,3 +1,10 @@
+<!--
+File name: COMP229-F2022 MidTerm(301157840)
+Author's name: Hyunjin Park
+Student ID: 301157840
+Web App name: https://midterm-229.herokuapp.com/cars
+-->
+
 <% include ../partials/header.ejs %>
 
 <!-- MAIN CONTENT -->
@@ -20,7 +27,7 @@
               <th class="text-center">Category</th>
               <th class="text-center">Price</th>
               <th class="text-center"></th>
-              <th class="text-center"></th>
+              
             
             </tr>
           </thead>
@@ -46,7 +53,7 @@
       <!-- ------------------------ -->
                 <!--FIX the DELETE BUTTON HERE -->
                 <!-- ------------------------ -->
-     <a href="/cars/delete/<%=cars.Price%>" class="btn btn-warning btn-sm">
+     <a href="/cars/delete/<%=cars.Price%>" class="btn btn-warning btn-sm" id="btnDelete">
           <i class="fas fa-trash"></i> Delete</a>
     </main>
 

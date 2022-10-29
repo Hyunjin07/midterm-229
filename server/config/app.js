@@ -1,3 +1,11 @@
+/*
+File name: COMP229-F2022 MidTerm(301157840)
+Author's name: Hyunjin Park
+Student ID: 301157840
+Web App name: https://midterm-229.herokuapp.com/cars
+*/
+
+
 // moddules for node and express
 let createError = require("http-errors");
 let express = require("express");

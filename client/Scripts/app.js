@@ -1,3 +1,10 @@
+/*
+File name: COMP229-F2022 MidTerm(301157840)
+Author's name: Hyunjin Park
+Student ID: 301157840
+Web App name: https://midterm-229.herokuapp.com/cars
+*/
+
 /* custom JS goes here */
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */
@@ -107,8 +114,7 @@ $.fn.pageMe = function(opts){
     function Start(){
         console.log("App Started ... ");
 
-        let deleteButtons = document.querySelectorAll('.btn-warning');
-
+        let deleteButtons = document.querySelectorAll('#btnDelete');
         for (button of deleteButtons){
             button.addEventListener('click', (event)=>{
                 if(!confirm("Are you sure? Do you really want to delete it?")){
